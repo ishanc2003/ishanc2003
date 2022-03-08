@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ishanc2003
-- 👀 I’m interested in learning Python
-- 🌱 I’m currently learning Python
+- 👀 I’m interested in learning Python, C, C++ and Java
+- 🌱 I’m currently learning Python and C
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ishanc3002@gmail.com
 
