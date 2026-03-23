@@ -2,6 +2,12 @@
 
 Welcome to my repository. I primarily work on local projects for coursework, research, and personal development. This collection showcases my work in AI, machine learning, cloud infrastructure, and full-stack development.
 
+## About Me
+
+### Pursuing my Master's in AI at USC, LA
+
+### Interested in AI/ML/Software Development Summer '26 Internship roles
+
 ## Featured Projects
 
 ### 1. Hallucination-Resistant Multi-Hop Q&A (March 2026)
