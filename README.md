@@ -30,5 +30,3 @@ DDPM-based diffusion model trained on MNIST dataset (85,000 examples) for genera
 **Programming Languages:** Python, Java
 
 ---
-
-**For detailed project information, implementation details, or code access, please reach out directly.**
