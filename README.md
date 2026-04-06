@@ -13,7 +13,7 @@ Welcome to my repository. I primarily work on local projects for coursework, res
 ### 1. Hallucination-Resistant Multi-Hop Q&A (March 2026)
 Evidence-based RAG pipeline for multi-hop question answering on HotpotQA. Combines BM25 + FAISS hybrid retrieval, BAAI/bge-reranker-v2-m3 cross-encoder reranking, and citation selection to prevent hallucinated references. Local inference using Qwen 2.5:7B via Ollama. Achieved 62% exact match, 79% answer F1, 83% supporting fact F1.
 
-### 2. Wine Explorer  
+### 2. Wine Explorer (April 2026) 
 A voice-enabled wine discovery web app using FastAPI and vanilla JS, with Whisper speech-to-text, streaming LLM responses via Ollama (Qwen 2.5:7B), and browser-native. Added structured intent extraction (Gemma 2:9B) with regex fallback, embedding caching with MD5 validation, and sentence-buffered voice output for natural-sounding responses, all running locally with zero cloud APIs 
 
 ### 3. N.O.V.A - Narrative and Observational Virtual Assistant (Jan 2024)
