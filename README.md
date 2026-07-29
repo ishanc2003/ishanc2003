@@ -157,7 +157,8 @@ Local-first AI writing assistant (Python 3.11, Flask, Vue.js, Electron) with off
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ishanc2003&show_icons=true&hide_border=true&hide=stars,issues&theme=tokyonight&bg_color=00000000&title_color=26d0ce&icon_color=26d0ce" alt="GitHub stats" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishanc2003&layout=compact&hide_border=true&exclude_repo=Programs,FinanceApp&hide=html,css&theme=tokyonight&bg_color=00000000&title_color=26d0ce" alt="Top languages" height="150" />
+<sub>Currently building local-first retrieval and evaluation tooling. Always happy to talk about RAG, on-device inference, and making models say when they do not know.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:26d0ce,100:1a2980&height=100&section=footer" width="100%" alt="" />
 
 </div>
