@@ -6,7 +6,7 @@
 Software Engineering Intern @ CrossRoads · Graduating **May 2027**
 
 <a href="https://linkedin.com/in/ishan-chakrabarti-42445422b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:ichakra777@gmail.com"><img src="https://img.shields.io/badge/ichakra777%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:ishanc3002@gmail.com"><img src="https://img.shields.io/badge/ishanc3002%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/ishanc2003"><img src="https://img.shields.io/badge/Los_Angeles,_CA-2b3137?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Los Angeles" /></a>
 
 <br>
