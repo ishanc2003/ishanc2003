@@ -1,6 +1,6 @@
 # Ishan Chakrabarti
 
-**M.S. Computer Science (Artificial Intelligence)**, University of Southern California, Los Angeles
+**M.S. Computer Science (Artificial Intelligence)**, University of Southern California, Los Angeles<br>
 Software Engineering Intern @ CrossRoads · Graduating **May 2027**
 
 Open to **part-time roles for Fall 2026**, and **full-time roles from Summer 2027 onwards**.
@@ -9,86 +9,67 @@ Open to **part-time roles for Fall 2026**, and **full-time roles from Summer 202
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ichakra777@gmail.com)
 ![Location](https://img.shields.io/badge/Los_Angeles,_CA-333333?style=flat&logo=googlemaps&logoColor=white)
 
-I build **local-first AI systems**: retrieval pipelines, on-device inference, and voice interfaces that run
-without cloud APIs. Most of my recent work centers on making LLMs verifiable by grounding answers in retrieved
-evidence, enforcing citations, and measuring when models are wrong.
+I build **local-first AI systems**: retrieval pipelines, on-device inference, and voice interfaces that run without cloud APIs. Most of my recent work centers on making LLMs verifiable by grounding answers in retrieved evidence, enforcing citations, and measuring when models are wrong.
 
 ---
 
 ## 🔬 Publications & Reports
 
-**Unveiling Blockchain's Role in Cultivating Responsible Food Supply Chains**
-Blockchain-based transparency and traceability mechanisms for agricultural supply chains, focusing on
-accountability and sustainability across multiple supply stages. *(IJEMH, April 2025)*
+**Unveiling Blockchain's Role in Cultivating Responsible Food Supply Chains**<br>
+Blockchain-based transparency and traceability mechanisms for agricultural supply chains, focusing on accountability and sustainability across multiple supply stages. *(IJEMH, April 2025)*
 
-**Diabetic Retinopathy Classification using Transfer Learning and CBAM-enhanced MobileNetV2**
-Transfer learning with MobileNetV2 and CBAM attention for five-stage diabetic retinopathy classification on
-Messidor-2, improving classification accuracy from 80% to 85%. *(Manuscript in submission)*
+**Diabetic Retinopathy Classification using Transfer Learning and CBAM-enhanced MobileNetV2**<br>
+Transfer learning with MobileNetV2 and CBAM attention for five-stage diabetic retinopathy classification on Messidor-2, improving classification accuracy from 80% to 85%. *(Manuscript in submission)*
 
-**Evidence-Based RAG for Hallucination-Resistant Multi-Hop Q&A**
-Evidence-grounded RAG pipeline combining hybrid BM25 and FAISS retrieval, fuzzy title matching for iterative
-two-hop retrieval, cross-encoder reranking, citation selection from pre-enumerated facts, and an NLI-based
-verifier with a confidence-blending decider. Evaluated zero-shot on the full HotpotQA distractor development
-set (7,405 examples). *(CSCI 566 course project report, USC, 2026)*
+**Evidence-Based RAG for Hallucination-Resistant Multi-Hop Q&A**<br>
+Evidence-grounded RAG pipeline combining hybrid BM25 and FAISS retrieval, fuzzy title matching for iterative two-hop retrieval, cross-encoder reranking, citation selection from pre-enumerated facts, and an NLI-based verifier with a confidence-blending decider. Evaluated zero-shot on the full HotpotQA distractor development set (7,405 examples). *(CSCI 566 course project report, USC, 2026)*
 
 ---
 
 ## 💼 Experience
 
-**Software Engineering Intern @ CrossRoads** · Summer 2026
-Hardened a Flutter/Dart and AWS social platform ahead of public launch: strengthened release-build
-configuration handling, authored SpacetimeDB realtime release gates with unit tests and certification
-runbooks, and built privacy-preserving, offline-resilient authenticated sync for the signals feeding the
-recommendation layer.
+**Software Engineering Intern @ CrossRoads** · Summer 2026<br>
+Hardened a Flutter/Dart and AWS social platform ahead of public launch: strengthened release-build configuration handling, authored SpacetimeDB realtime release gates with unit tests and certification runbooks, and built privacy-preserving, offline-resilient authenticated sync for the signals feeding the recommendation layer.
 
-**Cloud/DevOps Intern @ LTIMindtree** · Summer 2024
-Designed CI/CD pipelines automating VM provisioning and Kubernetes (AKS) deployments on Microsoft Azure using
-Docker and YAML, replacing manual setup. Documented pipelines and authored deployment guides for consistent
-provisioning across development teams.
+**Cloud/DevOps Intern @ LTIMindtree** · Summer 2024<br>
+Designed CI/CD pipelines automating VM provisioning and Kubernetes (AKS) deployments on Microsoft Azure using Docker and YAML, replacing manual setup. Documented pipelines and authored deployment guides for consistent provisioning across development teams.
 
-**Intern @ ATION Studios** · Spring 2022
-Directed a cross-functional team of 5 (writers, artists, animators) producing animated sequences in Blender,
-managed production timelines, and led the final client presentation.
+**Intern @ ATION Studios** · Spring 2022<br>
+Directed a cross-functional team of 5 (writers, artists, animators) producing animated sequences in Blender, managed production timelines, and led the final client presentation.
 
 ---
 
 ## 🚀 Featured Projects
 
 ### [Hallucination-Resistant Multi-Hop QA](https://github.com/kabrashrey/hallucination_resistant_multihop_qna) · March 2026
+
 [![Repo](https://img.shields.io/badge/View_Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/kabrashrey/hallucination_resistant_multihop_qna)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-Evidence-grounded RAG pipeline for multi-hop QA on HotpotQA. Hybrid **BM25 + FAISS** retrieval with reciprocal
-rank fusion, **BGE-reranker-v2-m3** cross-encoder reranking, complexity-based model routing, and strict
-citation enforcement with abstention. Inference runs locally via **Ollama** (gemma4:31b) with no cloud APIs and
-no task-specific training.
+Evidence-grounded RAG pipeline for multi-hop QA on HotpotQA. Hybrid **BM25 + FAISS** retrieval with reciprocal rank fusion, **BGE-reranker-v2-m3** cross-encoder reranking, complexity-based model routing, and strict citation enforcement with abstention. Inference runs locally via **Ollama** (gemma4:31b) with no cloud APIs and no task-specific training.
 
-**Results** (zero-shot, full HotpotQA distractor dev set, n=7,405):
-Joint F1 improved from **19.6% to 43.2%** · 46.8% EM · 59.5% Token F1 · **94.3% BERTScore F1**
+**Results** (zero-shot, full HotpotQA distractor dev set, n=7,405):<br>
+Joint F1 improved from **19.6% to 43.2%** · 46.8% EM · 59.5% Token F1 · **94.3% BERTScore F1**<br>
 Retrieval architecture contributed **5x more gain** than model upgrades alone.
 
-> *CSCI 566 course project, team of 7.* I contributed to the pipeline infrastructure and owned the final
-> evaluation runs.
+> *CSCI 566 course project, team of 7.* I contributed to the pipeline infrastructure and owned the final evaluation runs.
 
 ---
 
 ### [Wine Explorer](https://github.com/ishanc2003/wine-explorer) · April 2026
+
 [![Repo](https://img.shields.io/badge/View_Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ishanc2003/wine-explorer)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
-Voice-enabled wine discovery app using **Whisper** speech-to-text, streaming LLM responses via **Ollama**
-(Qwen 2.5:7B), and browser-native TTS. Dual-path query engine combining LLM-generated pandas code for
-analytical questions (with self-correcting retry) and hybrid RAG for exploratory ones. Runs entirely locally
-with **zero cloud APIs**.
+Voice-enabled wine discovery app using **Whisper** speech-to-text, streaming LLM responses via **Ollama** (Qwen 2.5:7B), and browser-native TTS. Dual-path query engine combining LLM-generated pandas code for analytical questions (with self-correcting retry) and hybrid RAG for exploratory ones. Runs entirely locally with **zero cloud APIs**.
 
 ---
 
 ### N.O.V.A, Narrative & Observational Virtual Assistant · January 2024
+
 ![Patent](https://img.shields.io/badge/Patent_Filed-202641027824-B8860B?style=flat)
 
-Local-first AI writing assistant (Python 3.11, Flask, Vue.js, Electron) with offline inference, resource-aware
-context management, and response streaming achieving sub-5-second latency versus roughly 30 seconds without.
-SHA-256 encrypted local storage.
+Local-first AI writing assistant (Python 3.11, Flask, Vue.js, Electron) with offline inference, resource-aware context management, and response streaming achieving sub-5-second latency versus roughly 30 seconds without. SHA-256 encrypted local storage.
 
 > *Patent application filed with the Indian Patent Office (No. 202641027824). Source not public.*
 
@@ -109,7 +90,7 @@ SHA-256 encrypted local storage.
 
 ## 🧰 Technical Skills
 
-**AI / ML**
+**AI / ML**<br>
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
@@ -119,7 +100,7 @@ SHA-256 encrypted local storage.
 
 *RAG · Diffusion Models · FAISS · BM25 · Llama.cpp · Whisper · NLI Verification*
 
-**Cloud & DevOps**
+**Cloud & DevOps**<br>
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
@@ -128,7 +109,7 @@ SHA-256 encrypted local storage.
 
 *Certified: AWS AI Practitioner · AWS Cloud Practitioner · Google Cloud Digital Leader*
 
-**Languages & Frameworks**
+**Languages & Frameworks**<br>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
