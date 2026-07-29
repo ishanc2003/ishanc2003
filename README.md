@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2980,100:26d0ce&height=180&section=header&text=Ishan%20Chakrabarti&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=Local-first%20AI%20Systems%20%7C%20Retrieval%20%7C%20On-device%20Inference&descAlignY=53&descSize=16" width="100%" alt="Ishan Chakrabarti" />
+<a href="https://github.com/ishanc2003"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2980,100:26d0ce&height=180&section=header&text=Ishan%20Chakrabarti&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=Local-first%20AI%20Systems%20%7C%20Retrieval%20%7C%20On-device%20Inference&descAlignY=53&descSize=16" width="100%" alt="Ishan Chakrabarti" /></a>
 
 **M.S. Computer Science (Artificial Intelligence)** · University of Southern California<br>
 Software Engineering Intern @ CrossRoads · Graduating **May 2027**
 
 <a href="https://linkedin.com/in/ishan-chakrabarti-42445422b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:ichakra777@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:ichakra777@gmail.com"><img src="https://img.shields.io/badge/ichakra777%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/ishanc2003"><img src="https://img.shields.io/badge/Los_Angeles,_CA-2b3137?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Los Angeles" /></a>
 
 <br>
@@ -25,9 +25,9 @@ I build **local-first AI systems**: retrieval pipelines, on-device inference, an
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,flask,fastapi,docker,kubernetes,aws,azure,gcp&theme=dark" alt="AI, ML and cloud tooling" />
+<a href="https://github.com/ishanc2003"><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,flask,fastapi,docker,kubernetes,aws,azure,gcp&theme=dark" alt="AI, ML and cloud tooling" /></a>
 <br>
-<img src="https://skillicons.dev/icons?i=cpp,java,dart,flutter,react,vue,django,nodejs,postgres,git&theme=dark" alt="Languages and frameworks" />
+<a href="https://github.com/ishanc2003"><img src="https://skillicons.dev/icons?i=cpp,java,dart,flutter,react,vue,django,nodejs,postgres,git&theme=dark" alt="Languages and frameworks" /></a>
 
 <sub>**Also:** RAG · FAISS · BM25 · Ollama · Llama.cpp · Whisper · Hugging Face · Diffusion Models · NLI Verification</sub>
 
@@ -46,9 +46,15 @@ Blockchain-based transparency and traceability mechanisms for agricultural suppl
 </details>
 
 <details open>
-<summary><b>Diabetic Retinopathy Classification using Transfer Learning and CBAM-enhanced MobileNetV2</b> · <i>Manuscript in submission</i></summary>
+<summary><b>Diabetic Retinopathy Classification using Transfer Learning and CBAM-enhanced MobileNetV2</b> · <i>Under review, IEEE</i></summary>
 <br>
 Transfer learning with MobileNetV2 and CBAM attention for five-stage diabetic retinopathy classification on Messidor-2, improving classification accuracy from 80% to 85%.
+</details>
+
+<details open>
+<summary><b>Evidence-Based RAG for Hallucination-Resistant Multi-Hop Q&A</b> · <i>Under review, IEEE</i></summary>
+<br>
+Evidence-grounded RAG pipeline combining hybrid BM25 and FAISS retrieval, fuzzy title matching for iterative two-hop retrieval, cross-encoder reranking, citation selection from pre-enumerated facts, and an NLI-based verifier with a confidence-blending decider. Evaluated zero-shot on the full HotpotQA distractor development set (7,405 examples).
 </details>
 
 ---
@@ -61,26 +67,33 @@ Transfer learning with MobileNetV2 and CBAM attention for five-stage diabetic re
 
 Launch stabilization and platform hardening for a Flutter/Dart and AWS social platform, spanning release engineering, realtime infrastructure, and backend preference signals. Delivered 8 tracked issues across two release phases.
 
-**Release engineering & configuration**
+&nbsp;&nbsp;<sub><b>RELEASE ENGINEERING & CONFIGURATION</b></sub>
+
 - Established a release-time configuration boundary separating public mobile config from server-side configuration, so release-bound builds provably carry only their intended public surface
 - Extended secret scanning to cover Flutter asset manifests and generated build inputs, with a documented public-config contract for mobile
 
-**Realtime infrastructure (SpacetimeDB)**
+&nbsp;&nbsp;<sub><b>REALTIME INFRASTRUCTURE (SPACETIMEDB)</b></sub>
+
 - Authored realtime release gates covering reconnect health, message ordering, stream lag, unread and read-state correctness, and generated-binding drift
 - Certified SpacetimeDB as the single source of truth for messaging, presence, and group threads, with no production read or write path depending on RDS/Lambda fallback
 - Reviewed runtime ownership across connection services and scoped group and project thread subscriptions
 
-**Backend preference signals**
+&nbsp;&nbsp;<sub><b>BACKEND PREFERENCE SIGNALS</b></sub>
+
 - Designed an authenticated sync path carrying saved and recent search signals into backend preference profiles, making device-local intent usable as a recommendation input
 - Kept local storage as the immediate UI source with retry and idempotency handling, so sync failure degrades silently rather than breaking search
 - Applied redaction and minimization to raw queries under the event privacy contract
 
-**Media pipeline & client correctness**
+&nbsp;&nbsp;<sub><b>MEDIA PIPELINE & CLIENT CORRECTNESS</b></sub>
+
 - Hardened video upload and quota enforcement with failure-boundary-specific handling across quota, duration, upload, processing, moderation, auth, and network states
-- Specified clip reuse across ISO flows with a quota model keyed on unique referenced media, removing repeated re-uploads
+- Specified clip reuse across content flows with a quota model keyed on unique referenced media, removing repeated re-uploads
 - Resolved realtime and rendering correctness in direct messaging, including typing-indicator attribution and consolidating avatar rendering into a single intentional component
 
+<br>
 </details>
+
+<br>
 
 <details open>
 <summary><b>Cloud/DevOps Intern @ LTIMindtree</b> · <i>Summer 2024</i></summary>
@@ -90,7 +103,10 @@ Launch stabilization and platform hardening for a Flutter/Dart and AWS social pl
 - Resolved SSH authentication and image pull failures during testing
 - Documented pipelines and authored deployment guides for consistent provisioning across development teams
 
+<br>
 </details>
+
+<br>
 
 <details open>
 <summary><b>Intern @ ATION Studios</b> · <i>Spring 2022</i></summary>
@@ -100,6 +116,7 @@ Launch stabilization and platform hardening for a Flutter/Dart and AWS social pl
 - Managed production timelines and integrated assets
 - Led the final client presentation, explaining behind-the-scenes process and creative decisions
 
+<br>
 </details>
 
 ---
@@ -109,8 +126,8 @@ Launch stabilization and platform hardening for a Flutter/Dart and AWS social pl
 ### <a href="https://github.com/kabrashrey/hallucination_resistant_multihop_qna">Hallucination-Resistant Multi-Hop QA</a> · March 2026
 
 <a href="https://github.com/kabrashrey/hallucination_resistant_multihop_qna"><img src="https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white" alt="View code" /></a>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/HotpotQA-4b8bbe?style=flat-square" alt="HotpotQA" />
+<a href="https://github.com/kabrashrey/hallucination_resistant_multihop_qna"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></a>
+<a href="https://hotpotqa.github.io/"><img src="https://img.shields.io/badge/HotpotQA-4b8bbe?style=flat-square" alt="HotpotQA" /></a>
 
 Evidence-grounded RAG pipeline for multi-hop QA on HotpotQA. Hybrid **BM25 + FAISS** retrieval with reciprocal rank fusion, **BGE-reranker-v2-m3** cross-encoder reranking, complexity-based model routing, and strict citation enforcement with abstention. Inference runs locally via **Ollama** (gemma4:31b) with no cloud APIs and no task-specific training.
 
@@ -133,8 +150,8 @@ Evidence-grounded RAG pipeline for multi-hop QA on HotpotQA. Hybrid **BM25 + FAI
 ### <a href="https://github.com/ishanc2003/wine-explorer">Wine Explorer</a> · April 2026
 
 <a href="https://github.com/ishanc2003/wine-explorer"><img src="https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white" alt="View code" /></a>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white" alt="Whisper" />
+<a href="https://github.com/ishanc2003/wine-explorer"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /></a>
+<a href="https://github.com/ishanc2003/wine-explorer"><img src="https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white" alt="Whisper" /></a>
 
 Voice-enabled wine discovery app using **Whisper** speech-to-text, streaming LLM responses via **Ollama** (Qwen 2.5:7B), and browser-native TTS. Dual-path query engine combining LLM-generated pandas code for analytical questions (with self-correcting retry) and hybrid RAG for exploratory ones. Runs entirely locally with **zero cloud APIs**.
 
@@ -142,12 +159,12 @@ Voice-enabled wine discovery app using **Whisper** speech-to-text, streaming LLM
 
 ### N.O.V.A, Narrative & Observational Virtual Assistant · January 2024
 
-<img src="https://img.shields.io/badge/Patent_Filed-202641027824-B8860B?style=flat-square" alt="Patent filed" />
-<img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
+<a href="https://github.com/ishanc2003"><img src="https://img.shields.io/badge/Patent_Filed-202641027824-B8860B?style=flat-square" alt="Patent filed" /></a>
+<a href="https://github.com/ishanc2003"><img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" /></a>
 
 Local-first AI writing assistant (Python 3.11, Flask, Vue.js, Electron) with offline inference, resource-aware context management, and response streaming achieving sub-5-second latency versus roughly 30 seconds without. SHA-256 encrypted local storage.
 
-> *Patent application filed with the Indian Patent Office (No. 202641027824). Source not public.*
+> *Patent application filed with the Indian Patent Office (No. 202641027824).*
 
 ---
 
@@ -168,6 +185,6 @@ Local-first AI writing assistant (Python 3.11, Flask, Vue.js, Electron) with off
 
 <sub>Currently building local-first retrieval and evaluation tooling. Always happy to talk about RAG, on-device inference, and making models say when they do not know.</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:26d0ce,100:1a2980&height=100&section=footer" width="100%" alt="" />
+<a href="https://github.com/ishanc2003"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:26d0ce,100:1a2980&height=100&section=footer" width="100%" alt="" /></a>
 
 </div>
