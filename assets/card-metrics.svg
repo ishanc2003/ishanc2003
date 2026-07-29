@@ -1,14 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="186" viewBox="0 0 840 186" role="img" aria-label="Evaluation results on HotpotQA">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="158" viewBox="0 0 840 158" role="img" aria-label="Evaluation results on HotpotQA">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0b1533"/>
       <stop offset="55%" stop-color="#0a1229"/>
       <stop offset="100%" stop-color="#060c1c"/>
-    </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26d0ce" stop-opacity="0.9"/>
-      <stop offset="60%" stop-color="#26d0ce" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#26d0ce" stop-opacity="0"/>
     </linearGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
       <path d="M28 0H0V28" fill="none" stroke="#26d0ce" stroke-opacity="0.07" stroke-width="1"/>
@@ -17,36 +12,32 @@
       <feGaussianBlur stdDeviation="3.2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="card"><rect x="1" y="1" width="838" height="184" rx="14"/></clipPath>
+    <clipPath id="card"><rect x="1" y="1" width="838" height="156" rx="14"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="838" height="184" rx="14" fill="url(#bg)" stroke="#1c3358" stroke-width="1.5"/>
+  <rect x="1" y="1" width="838" height="156" rx="14" fill="url(#bg)" stroke="#1c3358" stroke-width="1.5"/>
   <g clip-path="url(#card)">
-    <rect x="0" y="0" width="840" height="186" fill="url(#grid)"/>
-    <rect x="0" y="0" width="840" height="2" fill="url(#edge)" opacity="0.5">
-      <animate attributeName="y" values="-4;188;-4" dur="9s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="0" y="0" width="840" height="158" fill="url(#grid)"/>
     <text x="44" y="46" fill="#26d0ce" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="11.5" letter-spacing="3.2" opacity="0.85">EVALUATION // HOTPOTQA DISTRACTOR DEV</text>
     <line x1="44" y1="60" x2="796" y2="60" stroke="#26d0ce" stroke-opacity="0.2"/>
-    <text x="119" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="21" font-weight="700" text-anchor="middle" filter="url(#glow)">19.6&#8594;43.2<tspan font-size="14" fill="#26d0ce">%</tspan></text>
+    <text x="119" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="22" font-weight="700" text-anchor="middle" filter="url(#glow)">19.6&#8594;43.2<tspan font-size="14" fill="#26d0ce">%</tspan><animate attributeName="opacity" values="1;0.62;1" dur="4.2s" begin="0.00s" repeatCount="indefinite"/></text>
     <text x="119" y="136" fill="#7f9dc4" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.7" text-anchor="middle">JOINT F1</text>
-    <text x="270" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="27" font-weight="700" text-anchor="middle" filter="url(#glow)">94.3<tspan font-size="14" fill="#26d0ce">%</tspan></text>
+    <text x="270" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="28" font-weight="700" text-anchor="middle" filter="url(#glow)">94.3<tspan font-size="14" fill="#26d0ce">%</tspan><animate attributeName="opacity" values="1;0.62;1" dur="4.2s" begin="0.45s" repeatCount="indefinite"/></text>
     <text x="270" y="136" fill="#7f9dc4" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.7" text-anchor="middle">BERTSCORE F1</text>
     <line x1="194" y1="80" x2="194" y2="146" stroke="#26d0ce" stroke-opacity="0.13"/>
-    <text x="420" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="27" font-weight="700" text-anchor="middle" filter="url(#glow)">46.8<tspan font-size="14" fill="#26d0ce">%</tspan></text>
+    <text x="420" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="28" font-weight="700" text-anchor="middle" filter="url(#glow)">46.8<tspan font-size="14" fill="#26d0ce">%</tspan><animate attributeName="opacity" values="1;0.62;1" dur="4.2s" begin="0.90s" repeatCount="indefinite"/></text>
     <text x="420" y="136" fill="#7f9dc4" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.7" text-anchor="middle">EXACT MATCH</text>
     <line x1="345" y1="80" x2="345" y2="146" stroke="#26d0ce" stroke-opacity="0.13"/>
-    <text x="570" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="27" font-weight="700" text-anchor="middle" filter="url(#glow)">59.5<tspan font-size="14" fill="#26d0ce">%</tspan></text>
+    <text x="570" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="28" font-weight="700" text-anchor="middle" filter="url(#glow)">59.5<tspan font-size="14" fill="#26d0ce">%</tspan><animate attributeName="opacity" values="1;0.62;1" dur="4.2s" begin="1.35s" repeatCount="indefinite"/></text>
     <text x="570" y="136" fill="#7f9dc4" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.7" text-anchor="middle">TOKEN F1</text>
     <line x1="495" y1="80" x2="495" y2="146" stroke="#26d0ce" stroke-opacity="0.13"/>
-    <text x="721" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="27" font-weight="700" text-anchor="middle" filter="url(#glow)">5&#215;<tspan font-size="14" fill="#26d0ce"></tspan></text>
+    <text x="721" y="112" fill="#7ef9ff" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="28" font-weight="700" text-anchor="middle" filter="url(#glow)">5&#215;<tspan font-size="14" fill="#26d0ce"></tspan><animate attributeName="opacity" values="1;0.62;1" dur="4.2s" begin="1.80s" repeatCount="indefinite"/></text>
     <text x="721" y="136" fill="#7f9dc4" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.7" text-anchor="middle">RETRIEVAL GAIN</text>
     <line x1="646" y1="80" x2="646" y2="146" stroke="#26d0ce" stroke-opacity="0.13"/>
-    <text x="44" y="166" fill="#5d7ba6" font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace" font-size="10.5">zero-shot &#183; n=7,405 &#183; gemma4:31b via Ollama &#183; no task-specific training</text>
   </g>
   <g stroke="#26d0ce" stroke-width="2" fill="none" opacity="0.85">
     <path d="M16 44V22a6 6 0 0 1 6-6h24"/>
     <path d="M794 16h24a6 6 0 0 1 6 6v22"/>
-    <path d="M16 142v22a6 6 0 0 0 6 6h24"/>
-    <path d="M824 142v22a6 6 0 0 1-6 6h-24"/>
+    <path d="M16 114v22a6 6 0 0 0 6 6h24"/>
+    <path d="M824 114v22a6 6 0 0 1-6 6h-24"/>
   </g>
 </svg>
