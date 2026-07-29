@@ -17,6 +17,10 @@ Software Engineering Intern @ CrossRoads · Graduating **May 2027**
 
 ---
 
+<div align="center">
+<a href="https://github.com/ishanc2003"><img src="https://raw.githubusercontent.com/ishanc2003/ishanc2003/main/assets/card-identity.svg" width="100%" alt="Local-first AI systems: retrieval, on-device inference, evaluation" /></a>
+</div>
+
 I build **local-first AI systems**: retrieval pipelines, on-device inference, and voice interfaces that run without cloud APIs. Most of my recent work centers on making LLMs verifiable by grounding answers in retrieved evidence, enforcing citations, and measuring when models are wrong.
 
 ---
