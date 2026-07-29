@@ -26,16 +26,12 @@ Software Engineering Intern @ CrossRoads · Graduating **May 2027**
 ## 🧰 Toolbox
 
 <div align="center">
+<a href="https://github.com/ishanc2003"><img src="https://raw.githubusercontent.com/ishanc2003/ishanc2003/main/assets/card-toolbox.svg" width="100%" alt="Technical toolbox" /></a>
+</div>
 
-<a href="https://github.com/ishanc2003"><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,flask,fastapi,docker,kubernetes,aws,azure,gcp&theme=dark" alt="AI, ML and cloud tooling" /></a>
-<br>
-<a href="https://github.com/ishanc2003"><img src="https://skillicons.dev/icons?i=cpp,java,dart,flutter,react,vue,django,nodejs,postgres,git&theme=dark" alt="Languages and frameworks" /></a>
-
-<sub>**Also:** RAG · FAISS · BM25 · Ollama · Llama.cpp · Whisper · Hugging Face · Diffusion Models · NLI Verification</sub>
+<sub>Python · PyTorch · TensorFlow · Keras · scikit-learn · Hugging Face · Ollama · Llama.cpp · RAG · FAISS · BM25 · Whisper · Diffusion Models · NLI Verification · AWS · Azure · GCP · Docker · Kubernetes · FastAPI · Flask · Auth0 · C/C++ · Java · Dart · Flutter · React · Vue.js · Django · Node.js · PostgreSQL · Git</sub>
 
 <sub>**Certified:** AWS AI Practitioner · AWS Cloud Practitioner · Google Cloud Digital Leader</sub>
-
-</div>
 
 ---
 
@@ -133,17 +129,9 @@ Launch stabilization and platform hardening for a Flutter/Dart and AWS social pl
 
 Evidence-grounded RAG pipeline for multi-hop QA on HotpotQA. Hybrid **BM25 + FAISS** retrieval with reciprocal rank fusion, **BGE-reranker-v2-m3** cross-encoder reranking, complexity-based model routing, and strict citation enforcement with abstention. Inference runs locally via **Ollama** (gemma4:31b) with no cloud APIs and no task-specific training.
 
-<table>
-<tr>
-<td align="center"><b>19.6% → 43.2%</b><br><sub>Joint F1</sub></td>
-<td align="center"><b>94.3%</b><br><sub>BERTScore F1</sub></td>
-<td align="center"><b>46.8%</b><br><sub>Exact Match</sub></td>
-<td align="center"><b>59.5%</b><br><sub>Token F1</sub></td>
-<td align="center"><b>5x</b><br><sub>retrieval gain vs<br>model upgrades</sub></td>
-</tr>
-</table>
+<a href="https://github.com/kabrashrey/hallucination_resistant_multihop_qna"><img src="https://raw.githubusercontent.com/ishanc2003/ishanc2003/main/assets/card-metrics.svg" width="100%" alt="Evaluation results: Joint F1 19.6 to 43.2 percent, BERTScore F1 94.3 percent, Exact Match 46.8 percent, Token F1 59.5 percent, 5x retrieval gain" /></a>
 
-<sub>Zero-shot, full HotpotQA distractor dev set (n=7,405).</sub>
+<sub>Joint F1 19.6% → 43.2% · BERTScore F1 94.3% · Exact Match 46.8% · Token F1 59.5% · retrieval architecture contributed 5x more gain than model upgrades. Zero-shot, full HotpotQA distractor dev set (n=7,405).</sub>
 
 > *CSCI 566 course project, team of 7.* I contributed to the pipeline infrastructure and owned the final evaluation runs.
 
