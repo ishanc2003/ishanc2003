@@ -51,12 +51,6 @@ Blockchain-based transparency and traceability mechanisms for agricultural suppl
 Transfer learning with MobileNetV2 and CBAM attention for five-stage diabetic retinopathy classification on Messidor-2, improving classification accuracy from 80% to 85%.
 </details>
 
-<details open>
-<summary><b>Evidence-Based RAG for Hallucination-Resistant Multi-Hop Q&A</b> · <i>CSCI 566 course project report, USC, 2026</i></summary>
-<br>
-Evidence-grounded RAG pipeline combining hybrid BM25 and FAISS retrieval, fuzzy title matching for iterative two-hop retrieval, cross-encoder reranking, citation selection from pre-enumerated facts, and an NLI-based verifier with a confidence-blending decider. Evaluated zero-shot on the full HotpotQA distractor development set (7,405 examples).
-</details>
-
 ---
 
 ## 💼 Experience
@@ -65,11 +59,26 @@ Evidence-grounded RAG pipeline combining hybrid BM25 and FAISS retrieval, fuzzy 
 <summary><b>Software Engineering Intern @ CrossRoads</b> · <i>Summer 2026</i></summary>
 <br>
 
-Hardened a Flutter/Dart and AWS social platform ahead of public launch.
+Launch stabilization and platform hardening for a Flutter/Dart and AWS social platform, spanning release engineering, realtime infrastructure, and backend preference signals. Delivered 8 tracked issues across two release phases.
 
-- Strengthened release-build configuration handling
-- Authored SpacetimeDB realtime release gates with unit tests and certification runbooks
-- Built privacy-preserving, offline-resilient authenticated sync for the signals feeding the recommendation layer
+**Release engineering & configuration**
+- Established a release-time configuration boundary separating public mobile config from server-side configuration, so release-bound builds provably carry only their intended public surface
+- Extended secret scanning to cover Flutter asset manifests and generated build inputs, with a documented public-config contract for mobile
+
+**Realtime infrastructure (SpacetimeDB)**
+- Authored realtime release gates covering reconnect health, message ordering, stream lag, unread and read-state correctness, and generated-binding drift
+- Certified SpacetimeDB as the single source of truth for messaging, presence, and group threads, with no production read or write path depending on RDS/Lambda fallback
+- Reviewed runtime ownership across connection services and scoped group and project thread subscriptions
+
+**Backend preference signals**
+- Designed an authenticated sync path carrying saved and recent search signals into backend preference profiles, making device-local intent usable as a recommendation input
+- Kept local storage as the immediate UI source with retry and idempotency handling, so sync failure degrades silently rather than breaking search
+- Applied redaction and minimization to raw queries under the event privacy contract
+
+**Media pipeline & client correctness**
+- Hardened video upload and quota enforcement with failure-boundary-specific handling across quota, duration, upload, processing, moderation, auth, and network states
+- Specified clip reuse across ISO flows with a quota model keyed on unique referenced media, removing repeated re-uploads
+- Resolved realtime and rendering correctness in direct messaging, including typing-indicator attribution and consolidating avatar rendering into a single intentional component
 
 </details>
 
