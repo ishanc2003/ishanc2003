@@ -17,9 +17,13 @@ Software Engineering Intern @ CrossRoads · Graduating **May 2027**
 
 ---
 
-<div align="center">
-<a href="https://github.com/ishanc2003"><img src="https://raw.githubusercontent.com/ishanc2003/ishanc2003/main/assets/card-identity.svg" width="100%" alt="Local-first AI systems: retrieval, on-device inference, evaluation" /></a>
-</div>
+I build **local-first AI systems** that run without cloud APIs:
+
+- **Retrieval** — hybrid BM25 + FAISS, cross-encoder reranking
+- **Inference** — on-device via Ollama, zero cloud APIs
+- **Evaluation** — citation enforcement, NLI verification
+
+Most of my recent work centers on making LLMs verifiable: grounding answers in retrieved evidence, and measuring when models are wrong.
 
 ---
 
@@ -36,6 +40,10 @@ Software Engineering Intern @ CrossRoads · Graduating **May 2027**
 ---
 
 ## 🔬 Publications & Reports
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/ishanc2003/ishanc2003/main/assets/card-publications.svg" width="100%" alt="Publications and reports" />
+</div>
 
 <details open>
 <summary><b>Unveiling Blockchain's Role in Cultivating Responsible Food Supply Chains</b> · <i>IJEMH, April 2025</i></summary>
@@ -58,6 +66,10 @@ Evidence-grounded RAG pipeline combining hybrid BM25 and FAISS retrieval, fuzzy 
 ---
 
 ## 💼 Experience
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/ishanc2003/ishanc2003/main/assets/card-experience.svg" width="100%" alt="Experience timeline: ATION Studios Spring 2022, LTIMindtree Summer 2024, CrossRoads Summer 2026" />
+</div>
 
 <details open>
 <summary><b>Software Engineering Intern @ CrossRoads</b> · <i>Summer 2026</i></summary>
