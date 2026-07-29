@@ -154,6 +154,7 @@ Evidence-grounded RAG pipeline for multi-hop QA on HotpotQA. Hybrid **BM25 + FAI
 <a href="https://github.com/ishanc2003/wine-explorer"><img src="https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white" alt="View code" /></a>
 <a href="https://github.com/ishanc2003/wine-explorer"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /></a>
 <a href="https://github.com/ishanc2003/wine-explorer"><img src="https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white" alt="Whisper" /></a>
+<a href="https://ollama.com"><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" /></a>
 
 Voice-enabled wine discovery app using **Whisper** speech-to-text, streaming LLM responses via **Ollama** (Qwen 2.5:7B), and browser-native TTS. Dual-path query engine combining LLM-generated pandas code for analytical questions (with self-correcting retry) and hybrid RAG for exploratory ones. Runs entirely locally with **zero cloud APIs**.
 
@@ -163,8 +164,9 @@ Voice-enabled wine discovery app using **Whisper** speech-to-text, streaming LLM
 
 <a href="https://github.com/ishanc2003"><img src="https://img.shields.io/badge/Patent_Filed-202641027824-B8860B?style=flat-square" alt="Patent filed" /></a>
 <a href="https://github.com/ishanc2003"><img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" /></a>
+<a href="https://ollama.com"><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" /></a>
 
-Local-first AI writing assistant (Python 3.11, Flask, Vue.js, Electron) with offline inference, resource-aware context management, and response streaming achieving sub-5-second latency versus roughly 30 seconds without. SHA-256 encrypted local storage.
+Local-first AI writing assistant (Python 3.11, Flask, Vue.js, Electron) with offline inference via **Ollama**, resource-aware context management, and response streaming achieving sub-5-second latency versus roughly 30 seconds without. SHA-256 encrypted local storage.
 
 > *Patent application filed with the Indian Patent Office (No. 202641027824).*
 
